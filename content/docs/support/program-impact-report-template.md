@@ -1,0 +1,265 @@
+```yaml
+---
+title: Program Impact Report Template
+slug: program-impact-report-template
+category: support
+---
+
+# Program Impact Report Template
+
+**Document Version:** 2.1  
+**Last Updated:** March 2024  
+**Owner:** Programs Team  
+**Review Schedule:** Annually (next due March 2025)
+
+## Purpose
+
+This template provides a standardised framework for program staff to report on program outcomes and impact. Consistent reporting helps us demonstrate value to funders, identify areas for improvement, and share learnings across our programs.
+
+**Note:** This template was updated following feedback from the March 2024 board meeting. The previous version focused too heavily on outputs rather than outcomes — please ensure you're using this current version.
+
+## When to Use This Template
+
+- Quarterly program reports (due 15th of April, July, October, January)
+- Grant acquittal reports
+- Annual impact reporting
+- Ad-hoc funder requests for program updates
+- Internal program reviews
+
+**Important:** For emergency relief reporting, continue using the separate template provided by Craig Donovan due to specific DHS reporting requirements.
+
+## Section 1: Program Overview
+
+### 1.1 Basic Information
+- **Program Name:**
+- **Reporting Period:**
+- **Program Staff:** (Include volunteers if they contributed >20 hours)
+- **Primary Funding Source(s):**
+- **Total Program Budget for Period:** $
+
+### 1.2 Program Summary
+Provide a brief (2-3 sentences) description of the program's core activities during this reporting period. Focus on what you actually delivered, not what you planned to deliver.
+
+**Example:**
+*The Digital Connections program delivered 8 group workshops and 24 one-on-one sessions to seniors across Joondalup and Wanneroo. We also piloted our new tablet lending program with 12 participants and completed the technology audit of the Balga Community Centre.*
+
+## Section 2: Quantitative Outcomes
+
+### 2.1 Participation Metrics
+
+| Metric | Target | Actual | Variance | Notes |
+|--------|---------|---------|----------|-------|
+| Total participants | | | | |
+| New participants | | | | |
+| Session attendance rate | | | | |
+| Program completion rate | | | | |
+| Geographic reach (suburbs) | | | | |
+
+**Additional Participation Notes:**
+Include any context about participation numbers — seasonal variations, external factors, changes in delivery model, etc.
+
+### 2.2 Program-Specific Outcomes
+
+**Youth Employment Programs:**
+- Job placements achieved: ___/___
+- Participants completing training modules: ___/___
+- Participants progressing to further education: ___/___
+- Average wage of placed participants: $___/hour
+- 6-month job retention rate: ___%
+
+**Digital Literacy Programs:**
+- Participants demonstrating basic digital skills: ___/___
+- Devices provided/loaned: ___
+- Participants accessing online services independently: ___/___
+- Referrals to other services facilitated: ___
+
+**Community Health Programs:**
+- Health screenings conducted: ___
+- Referrals to healthcare providers: ___
+- Participants reporting improved health knowledge: ___/___
+- Community health events held: ___
+- Estimated total community reach: ___
+
+**Emergency Relief:**
+*Use DHS template for primary reporting, but include summary figures here:*
+- Households assisted: ___
+- Total value of assistance provided: $___
+- Average assistance per household: $___
+
+### 2.3 Cost Efficiency
+
+- Cost per participant: $___
+- Cost per outcome achieved: $___
+- Volunteer hours contributed: ___
+- Estimated value of volunteer time: $___
+
+*Note: Use $28.50/hour for volunteer time calculation (updated from Fair Work minimum wage, January 2024)*
+
+## Section 3: Qualitative Impact
+
+### 3.1 Participant Stories
+
+Include 2-3 de-identified participant stories that illustrate program impact. Stories should show transformation or progress, not just satisfaction.
+
+**Story Selection Guidelines:**
+- Seek participant consent before including stories
+- Remove all identifying details
+- Focus on outcomes, not just activities
+- Include challenges as well as successes where appropriate
+
+**Story Template:**
+*[Name/identifier] came to the program [context]. Through [specific activities], they [outcome achieved]. [Quote if available]. [Current status/next steps].*
+
+**Example:**
+*Sarah* came to our digital literacy program after feeling isolated during COVID lockdowns and struggling to stay connected with her grandchildren. Through six weeks of group sessions and follow-up support, she learned to video call on her tablet and now has weekly calls with family in Sydney. "I never thought I'd be the type to use technology, but now I can't imagine not having it," she told us. Sarah has since joined our tablet lending program as a peer mentor.*
+
+### 3.2 Community Feedback
+
+Include feedback from:
+- Program participants (surveys, informal feedback)
+- Community partners
+- Volunteers
+- Other stakeholders
+
+Summarise key themes rather than listing individual comments. Include both positive feedback and constructive criticism.
+
+### 3.3 Unexpected Outcomes
+
+Document any outcomes that weren't anticipated in your program design. These often provide valuable insights for program improvement and future planning.
+
+## Section 4: Challenges and Barriers
+
+### 4.1 Implementation Challenges
+
+Be honest about what didn't work well. Common categories include:
+
+**Participant Engagement:**
+- Recruitment difficulties
+- Attendance issues
+- Completion rates
+- Diverse needs within programs
+
+**Resource Constraints:**
+- Staffing limitations
+- Equipment/materials shortages
+- Venue availability
+- Transport barriers for participants
+
+**External Factors:**
+- Weather impacts (especially for regional programs)
+- COVID-related disruptions
+- Other community priorities
+- Economic pressures on participants
+
+### 4.2 How Challenges Were Addressed
+
+For each challenge identified, explain:
+- Immediate responses taken
+- Effectiveness of responses
+- Whether the solution is sustainable
+- What you would do differently next time
+
+## Section 5: Lessons Learned
+
+### 5.1 What Worked Well
+
+Identify specific elements of program delivery that were particularly effective. Consider:
+- Delivery methods/formats
+- Partnership arrangements
+- Staff/volunteer roles
+- Timing and scheduling
+- Communication approaches
+
+### 5.2 Areas for Improvement
+
+Based on this reporting period, what would you change for future delivery? Be specific about:
+- Changes you plan to implement immediately
+- Changes requiring additional resources
+- Changes requiring board/management approval
+- Changes requiring funder agreement
+
+### 5.3 Scalability Considerations
+
+*Given our current expansion discussions, please comment on:*
+- Which elements of this program could be easily replicated in new locations
+- What would be required to scale this program
+- Potential risks or challenges in scaling
+- Minimum resources needed for effective delivery elsewhere
+
+## Section 6: Financial Summary
+
+### 6.1 Budget Performance
+
+| Budget Line | Allocated | Spent | Remaining | % Spent |
+|-------------|-----------|--------|-----------|---------|
+| Staff costs | $ | $ | $ | % |
+| Materials/Equipment | $ | $ | $ | % |
+| Venue/Travel | $ | $ | $ | % |
+| Other expenses | $ | $ | $ | % |
+| **Total** | **$** | **$** | **$** | **%** |
+
+### 6.2 Budget Variances
+
+Explain any significant variances (>10%) from budgeted amounts. Include whether variances are one-off or likely to continue.
+
+### 6.3 Value for Money Assessment
+
+Comment on whether the outcomes achieved represent good value relative to the investment. Consider:
+- Comparison to similar programs (if available)
+- Long-term vs short-term value
+- Leveraging effect (additional resources attracted)
+- Prevention vs intervention value
+
+## Section 7: Recommendations
+
+### 7.1 Program Continuation
+
+Recommend whether this program should continue in its current form, with modifications, or be discontinued. Provide clear rationale.
+
+### 7.2 Resource Requirements
+
+If recommending continuation:
+- Staffing needs for next period
+- Budget requirements
+- Equipment/material needs
+- Training or professional development needs
+
+### 7.3 Strategic Alignment
+
+Comment on how this program supports Horizon Foundation's strategic priorities and whether any adjustments are needed to improve alignment.
+
+## Submission Guidelines
+
+### Deadlines
+- Quarterly reports: Due 5 business days after quarter end
+- Grant acquittal reports: As per funder requirements (check with Amara)
+- Annual reports: Due by March 31st
+
+### Review Process
+1. Draft report prepared by program staff
+2. Review by Jess Warburton (Programs Director)
+3. Financial section review by Craig Donovan
+4. Final approval by Maya Thompson for external submission
+
+### Formatting Requirements
+- Use this template exactly (don't modify section headings)
+- Save as: ProgramName_ReportType_MMYY.docx
+- Submit via shared drive: /Programs/Reporting/2024/
+- Email notification to jess.warburton@horizonfoundation.org.au
+
+### Support Available
+
+**For reporting questions:** Contact Jess Warburton  
+**For financial/budget questions:** Contact Craig Donovan  
+**For funder-specific requirements:** Contact Amara Osei  
+**For data analysis support:** Pat Moriarty can help with survey data
+
+---
+
+*This template will be reviewed following our planned program evaluation framework update (currently with board). Expect minor revisions to outcome measurement sections by mid-2024.*
+
+**Document History:**
+- v1.0 (January 2023): Initial template
+- v2.0 (November 2023): Added scalability section, updated financial reporting
+- v2.1 (March 2024): Enhanced outcome focus, added story guidelines
+```

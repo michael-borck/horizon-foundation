@@ -1,0 +1,274 @@
+```yaml
+---
+title: Grant Writing Guide
+slug: grant-writing-guide
+category: support
+---
+
+# Grant Writing Guide
+*Horizon Foundation Internal Document*  
+*Last Updated: March 2024*  
+*Owner: Amara Osei, Fundraising & Partnerships Manager*
+
+## Overview
+
+This guide provides our team with practical tools and processes for identifying, applying for, and managing grants that align with Horizon Foundation's mission. With our current funding landscape becoming more competitive, having a systematic approach to grant writing is essential for maintaining and expanding our programs.
+
+**Note**: This guide should be read alongside our Strategic Plan 2023-2026 and our most recent Impact Report. Maya has requested that all grant applications over $50,000 be reviewed by her before submission.
+
+## Finding Grant Opportunities
+
+### Primary Sources
+
+**Government Portals**
+- **GrantConnect** (federal): Check weekly for new opportunities. Craig has login credentials.
+- **WA Department of Communities**: Our main source for community services funding. Amara monitors this daily.
+- **City of Perth** and other local councils: Often have small community grants ($2,000-$15,000)
+
+**Foundation Databases**
+- **Our Community Grant Finder**: Subscription renewed through June 2024
+- **Australian Environmental Grantmakers Network**: Useful for our Community Gardens program
+- **Philanthropy Australia**: Access through our membership (expires December 2024)
+
+**Corporate Partners**
+- Maintain relationships with existing partners (see Partnership Database in SharePoint)
+- **Westpac Foundation**: Next round opens August 2024
+- **BHP Community Partnerships**: Rolling applications, but best to submit in Q1
+- **Rio Tinto**: Focus on regional programs - good fit for our Pilbara expansion
+
+### Opportunity Tracking
+
+All potential grants should be logged in our **Grant Tracker spreadsheet** (Finance folder, SharePoint) within 48 hours of identification. Include:
+- Funding body
+- Application deadline
+- Funding amount
+- Eligible programs
+- Application complexity (Simple/Moderate/Complex)
+- Probability assessment (High/Medium/Low)
+
+*Pat usually helps with initial research during quiet periods - she's particularly good at finding smaller community grants.*
+
+## Application Process
+
+### Pre-Application Phase
+
+1. **Eligibility Check** (30 minutes)
+   - Confirm we meet all criteria
+   - Check if we've applied before (search email archives)
+   - Verify our ABN/DGR status is current
+
+2. **Strategic Alignment Assessment** (1 hour)
+   - Does this advance our 2023-2026 strategic priorities?
+   - Which programs would benefit?
+   - Is the timeline realistic given our current capacity?
+
+3. **Go/No-Go Decision**
+   - Jess makes final call on program fit
+   - Craig reviews budget implications
+   - Maya approves applications >$50,000
+
+### Application Development
+
+**Timeline**: Allow minimum 3 weeks for applications over $25,000
+
+**Week 1: Research & Planning**
+- Download all guidelines and assessment criteria
+- Research the funding body's recent grants (annual reports, websites)
+- Draft project outline and budget framework
+- Identify required supporting documents
+
+**Week 2: Drafting**
+- Write first draft following structure below
+- Gather statistics and evidence
+- Develop detailed budget
+- Collect required attachments (policies, financial statements, etc.)
+
+**Week 3: Review & Refinement**
+- Internal review (see Review Process below)
+- Incorporate feedback
+- Final proofread
+- Submit 24-48 hours before deadline
+
+### Standard Application Structure
+
+Most grants follow this format. Adapt as needed:
+
+#### 1. Executive Summary (200-300 words)
+- Organization overview
+- Project summary
+- Funding request and impact statement
+- *Write this section last*
+
+#### 2. Organization Background (300-500 words)
+- **Standard paragraph**: "Horizon Foundation has been supporting disadvantaged communities across metropolitan and regional Western Australia since 2012. We deliver programs in youth employment, digital literacy for seniors, community health, and emergency relief, reaching approximately 1,200 people annually across 15 communities."
+- Track record and credibility indicators
+- Current programs and achievements
+- Governance structure (brief)
+
+#### 3. Project Description (800-1200 words)
+- **Need**: Use data from our Community Needs Assessment (2023) plus local statistics
+- **Solution**: Detailed project plan including activities, timeline, and methodology
+- **Innovation**: What makes our approach unique or evidence-based
+- **Community Engagement**: How communities are involved in design and delivery
+
+#### 4. Outcomes & Evaluation (400-600 words)
+- Specific, measurable outcomes aligned with our Logic Models
+- Evaluation methodology (refer to our Evaluation Framework)
+- How results will be shared and used for improvement
+- Long-term sustainability plans
+
+#### 5. Budget & Justification (varies)
+- Use our standard budget template (see Templates section)
+- Include narrative explaining major costs
+- Show co-funding and in-kind contributions
+- *Craig must review all budgets before submission*
+
+## Budget Development
+
+### Standard Budget Template
+
+Download current template from SharePoint: `Templates/Grant Budget Template 2024.xlsx`
+
+**Key principles:**
+- Personnel costs typically 60-70% of project budgets
+- Include 15% administration overhead where allowable
+- Show realistic timeframes (avoid cramming activities)
+- Include evaluation costs (usually 5-10% of total project)
+
+### Common Budget Items
+
+**Personnel** (use current salary rates from HR)
+- Project Coordinator: $75,000 + 30% on-costs
+- Community Engagement Worker: $65,000 + 30% on-costs
+- Casual facilitation: $45/hour
+
+**Program Delivery**
+- Workshop materials: $50-100 per participant
+- Venue hire: $200-500 per full-day workshop
+- Transport/travel: Use LGOV rates
+- Equipment: Include quotes for items >$1,000
+
+**Administration**
+- Phone/internet allocation: $150/month per FTE
+- Insurance allocation: $800 per FTE per year
+- Audit/compliance: $3,000-5,000 for large grants
+
+*Note: Our indirect cost rate was recalculated in January 2024 - check with Craig for current figures.*
+
+## Application Review Process
+
+### Internal Review Team
+- **Programs**: Jess Warburton (mandatory)
+- **Finance**: Craig Donovan (mandatory for budgets >$15,000)
+- **Partnerships**: Amara Osei (optional but recommended)
+- **External**: We occasionally engage retired CEO Margaret Williams for major applications
+
+### Review Checklist
+- [ ] All selection criteria addressed
+- [ ] Word limits adhered to
+- [ ] Budget balances and aligns with narrative
+- [ ] Required attachments included
+- [ ] Contact details and ABN correct
+- [ ] Submission method confirmed (online/email/post)
+
+## Tips from Successful Applications
+
+Based on our successful grants 2022-2024:
+
+### What Works
+- **Community voice**: Include quotes from participants/community members
+- **Partnerships**: Demonstrate genuine collaboration with other organizations
+- **Evidence base**: Reference research and best practice models
+- **Local data**: Use suburb-level statistics where possible (ABS, council reports)
+- **Clear outcomes**: Specific numbers and timeframes
+
+### What Doesn't Work
+- Generic applications that could apply to any organization
+- Overly ambitious timelines
+- Budgets that don't add up or seem unrealistic
+- Jargon without explanation
+- Lack of evaluation planning
+
+### Winning Elements from Recent Successes
+
+**Lotterywest Digital Seniors Program ($185,000, 2023)**
+- Strong partnership with Curtin University
+- Clear progression pathway for participants
+- Innovative use of peer mentoring
+- Detailed sustainability plan
+
+**Commonwealth Emergency Relief Fund ($95,000, 2024)**
+- Quick response to urgent community need
+- Existing infrastructure and relationships
+- Simple, scalable delivery model
+- Strong financial controls
+
+## Common Challenges & Solutions
+
+### Challenge: Tight Deadlines
+**Solution**: Maintain a rolling list of "shovel-ready" projects that can be quickly adapted for opportunities
+
+### Challenge: Complex Assessment Criteria
+**Solution**: Create a criteria matrix and address each point explicitly with subheadings
+
+### Challenge: Budget Restrictions
+**Solution**: Be creative with in-kind contributions and volunteer hours. Our volunteer time is valued at $25.43/hour (current national rate).
+
+### Challenge: Competing Priorities
+**Solution**: Quarterly grants planning meeting to align opportunities with program priorities
+
+## Post-Submission Management
+
+### If Successful
+1. Send thank you note within 48 hours
+2. Set up project in our grants management system (Smartygrants)
+3. Schedule kick-off meeting with delivery team
+4. Add reporting dates to shared calendar
+5. Invoice first payment if applicable
+
+### If Unsuccessful
+1. Request feedback if available
+2. Update our grants database with outcome
+3. Consider if proposal can be adapted for other funders
+4. Schedule debrief with application team
+
+## Compliance & Reporting
+
+### Acquittal Requirements
+- Financial reports due within 60 days of project completion (standard)
+- Impact reports vary by funder (usually 30-90 days)
+- Some funders require quarterly progress reports
+
+### Record Keeping
+- Maintain all grant files for 7 years minimum
+- Keep receipts and timesheets in project-specific folders
+- Document any variations or challenges for final reporting
+
+### Relationship Management
+- Send annual updates to major funders even between grants
+- Invite funders to events where appropriate
+- Share relevant media coverage and recognition
+
+## Resources & Templates
+
+### SharePoint Location
+All templates and examples: `Shared Documents/Fundraising/Grant Resources/`
+
+### Key Templates
+- Grant Budget Template 2024
+- Project Logic Model Template
+- Community Consultation Summary Template
+- Evaluation Plan Template
+- Standard Organization Description (updated March 2024)
+
+### Contact Information
+- **Grants questions**: Amara Osei (amara@horizonfoundation.org.au)
+- **Budget queries**: Craig Donovan (craig@horizonfoundation.org.au)
+- **Program alignment**: Jess Warburton (jess@horizonfoundation.org.au)
+
+---
+
+*This guide will be updated quarterly or after significant grant outcomes. Next review: June 2024.*
+
+*For urgent grant opportunities with less than 2 weeks' notice, email the leadership team immediately for expedited review process.*
+```

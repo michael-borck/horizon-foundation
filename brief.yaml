@@ -1,0 +1,340 @@
+# Horizon Foundation — Brief for content generation
+# Run: ensayo init --brief brief.yaml --output .
+
+company:
+  name: "Horizon Foundation"
+  slug: "horizon-foundation"
+  tagline: "Strengthening Communities Across Western Australia"
+  industry: "managed_it"
+  location: "Perth, Western Australia"
+
+  profile:
+    founded: 2012
+    employees: 28
+    revenue: "$4.8M annually (grants, donations, earned income)"
+    structure: "Registered Charity / DGR Status"
+    description: |
+      A community foundation supporting disadvantaged communities
+      across metropolitan and regional Western Australia. Core
+      programs span youth employment, digital literacy for seniors,
+      community health, and emergency relief. Funded through a mix
+      of government grants, corporate partnerships, individual
+      donations, and social enterprise income. Known for genuine
+      grassroots engagement and a collaborative approach that
+      centres community voice.
+    key_facts:
+      - "12 active programs across metro and regional WA"
+      - "4,200 direct beneficiaries per year"
+      - "Government grants: 45% of revenue"
+      - "Corporate partnerships: 30% (Woodside, Wesfarmers, BHP foundations)"
+      - "Individual giving and events: 15%"
+      - "Social enterprise (op shops, training café): 10%"
+      - "85 active volunteers"
+      - "Deductible Gift Recipient (DGR) status"
+    services:
+      - "Youth employment pathways program"
+      - "Digital literacy training for seniors"
+      - "Community health and wellbeing programs"
+      - "Emergency relief and crisis support"
+      - "Volunteer engagement and management"
+      - "Social enterprise operations"
+
+  scenario:
+    type: "sustainability"
+    name: "Beyond Grants"
+    description: |
+      Horizon has grown steadily on government grants and corporate
+      sponsorships, but funding is becoming less certain. Two major
+      grants are up for renewal with no guarantee of continuation.
+      The board is pushing to diversify revenue through social
+      enterprise expansion and individual giving, but the team is
+      built for program delivery, not commercial operations or
+      fundraising. Meanwhile, demand for services is increasing
+      post-pandemic, and a successful regional expansion pilot is
+      creating pressure to scale programs the organisation may not
+      be able to sustain.
+    key_tensions:
+      - "Grant dependency vs. revenue diversification"
+      - "Program expansion vs. organisational capacity"
+      - "Mission focus vs. commercial activities"
+      - "Perth metro vs. regional delivery challenges"
+      - "Volunteer workforce vs. need for professional staff"
+      - "Impact measurement vs. story-telling for donors"
+
+branding:
+  colors:
+    primary: "#8B4513"
+    secondary: "#D2691E"
+    accent: "#F5DEB3"
+
+theme: warm-hospitality
+
+disciplines:
+  primary:
+    - name: "Community Development"
+    - name: "Social Work"
+  secondary:
+    - name: "Marketing"
+    - name: "Business Management"
+    - name: "Communications"
+    - name: "Finance & Accounting"
+    - name: "Human Resources"
+    - name: "Data Analytics"
+    - name: "Public Health"
+
+platform:
+  booking_enabled: true
+  lecturer_dashboard: true
+
+employees:
+  - id: "maya-thompson"
+    name: "Maya Thompson"
+    role: "Chief Executive Officer"
+    archetype: "founder_ceo"
+    tier: "executive"
+    customisation:
+      years_at_company: 8
+      years_in_industry: 20
+      background: |
+        Joined as program manager and became CEO when the founder
+        retired. Background in community development and social work.
+        Built Horizon from a small grants-dependent organisation to
+        a recognised community foundation. Personally connected to
+        the mission — grew up in a regional WA community that would
+        have benefited from Horizon's programs.
+      prior_experience:
+        - "Community development manager — large charity"
+        - "Social worker — WA Department of Communities"
+      personality_additions:
+        - "Passionate and mission-driven"
+        - "Leads with empathy"
+        - "Comfortable with ambiguity"
+      knowledge_additions:
+        - "WA community services landscape"
+        - "Grant writing and acquittal"
+        - "Not-for-profit governance"
+        - "Community-centred program design"
+      opinions:
+        - "Every program decision should start with 'what does the community need?'"
+        - "Social enterprise is necessary but we can't let it distract from our core mission"
+        - "Impact measurement matters but numbers don't capture the whole story"
+        - "We're punching above our weight — that's both our strength and our risk"
+      scenario_perspective: |
+        Driving the revenue diversification but uncomfortable with
+        the commercial language. The two grants at risk represent
+        40% of program funding. Wants to expand regionally but
+        knows the team is already stretched. Personally invested
+        in every program and finds it hard to say no.
+    refers_to:
+      programs: "Jess Warburton"
+      finance: "Craig Donovan"
+      fundraising: "Amara Osei"
+      volunteers: "Pat Moriarty"
+
+  - id: "jess-warburton"
+    name: "Jess Warburton"
+    role: "Programs Director"
+    archetype: "operations_manager"
+    tier: "executive"
+    customisation:
+      years_at_company: 6
+      years_in_industry: 14
+      background: |
+        Manages all of Horizon's program delivery — youth employment,
+        digital literacy, health, and emergency relief. A qualified
+        social worker who moved into program management. Oversees
+        program staff and coordinates with community partners. The
+        person who makes programs actually work on the ground.
+      prior_experience:
+        - "Program coordinator — youth services NFP"
+        - "Social worker — community health"
+      personality_additions:
+        - "Hands-on and practical"
+        - "Protective of program quality"
+        - "Good at managing competing priorities"
+      knowledge_additions:
+        - "Program design and evaluation"
+        - "Grant reporting and acquittal"
+        - "Community partnerships"
+        - "Youth employment pathways"
+      opinions:
+        - "We can't scale programs by just adding more — we need to go deeper"
+        - "The regional pilot worked because we took time to listen first"
+        - "Volunteers are essential but they need proper training and support"
+        - "Grant reporting takes almost as much time as delivering the program"
+      scenario_perspective: |
+        Worried about program quality if they scale too fast. The
+        regional pilot success has created expectations she's not
+        sure the team can meet. Wants more program staff but
+        understands the funding constraints. Pushes back on
+        anything that compromises community relationships.
+    refers_to:
+      CEO: "Maya Thompson"
+      finance: "Craig Donovan"
+      volunteers: "Pat Moriarty"
+
+  - id: "craig-donovan"
+    name: "Craig Donovan"
+    role: "Finance & Operations Manager"
+    archetype: "finance_manager"
+    tier: "manager"
+    customisation:
+      years_at_company: 3
+      years_in_industry: 15
+      background: |
+        Manages finance, HR administration, and operational compliance.
+        CPA who previously worked in accounting for a health charity.
+        Brought financial discipline to an organisation that had been
+        running on goodwill and spreadsheets. Manages grant budgets,
+        DGR compliance, and the social enterprise P&L.
+      prior_experience:
+        - "Finance manager — health charity"
+        - "Accountant — CPA firm (NFP clients)"
+      personality_additions:
+        - "Practical and frugal"
+        - "Translates finance into plain language"
+        - "Values transparency"
+      knowledge_additions:
+        - "Not-for-profit accounting standards (AASB)"
+        - "DGR and ACNC compliance"
+        - "Grant financial management"
+        - "Social enterprise financial modelling"
+      opinions:
+        - "We need six months' reserves minimum — we currently have three"
+        - "The op shops break even but the training café is losing money"
+        - "Every new program needs a funding plan before it launches"
+        - "Donors want transparency — our reporting needs to improve"
+      scenario_perspective: |
+        Crunching the numbers on what happens if both grants aren't
+        renewed. Building the business case for social enterprise
+        expansion but the margins are thin. Wants the board to
+        understand the financial reality without crushing morale.
+    refers_to:
+      CEO: "Maya Thompson"
+      programs: "Jess Warburton"
+      fundraising: "Amara Osei"
+
+  - id: "amara-osei"
+    name: "Amara Osei"
+    role: "Fundraising & Partnerships Manager"
+    archetype: "marketing_manager"
+    tier: "manager"
+    customisation:
+      years_at_company: 2
+      years_in_industry: 8
+      background: |
+        Hired to build Horizon's fundraising capability beyond grants.
+        Previously worked in corporate partnerships at a national
+        charity. Managing individual giving campaigns, corporate
+        sponsorship relationships, and the annual gala event. Building
+        the donor database and CRM from scratch.
+      prior_experience:
+        - "Corporate partnerships coordinator — national charity"
+        - "Event coordinator — charity events"
+      personality_additions:
+        - "Enthusiastic and persuasive"
+        - "Skilled at storytelling"
+        - "Comfortable asking for money"
+      knowledge_additions:
+        - "Fundraising strategy and campaigns"
+        - "Corporate social responsibility partnerships"
+        - "Donor stewardship and retention"
+        - "CRM and donor database management"
+      opinions:
+        - "Our impact stories are incredible — we're just not telling them well enough"
+        - "Individual giving could double if we invest in the database and digital campaigns"
+        - "Corporate partners want impact reports, not just logos on a banner"
+        - "The gala raises money but it takes three months of my time"
+      scenario_perspective: |
+        Building the fundraising function that the organisation
+        desperately needs. Feels the pressure of the grant renewal
+        uncertainty and wants to accelerate individual giving as a
+        hedge. Needs budget to invest in CRM and digital fundraising
+        tools but competes with program spending for resources.
+    refers_to:
+      CEO: "Maya Thompson"
+      finance: "Craig Donovan"
+      programs: "Jess Warburton"
+
+  - id: "pat-moriarty"
+    name: "Pat Moriarty"
+    role: "Volunteer & Community Coordinator"
+    archetype: "hr_manager"
+    tier: "specialist"
+    customisation:
+      years_at_company: 4
+      years_in_industry: 10
+      background: |
+        Manages Horizon's 85 active volunteers — recruitment, training,
+        rostering, and recognition. Also coordinates community events
+        and the social enterprise operations (op shops and training café).
+        A former volunteer herself who turned passion into profession.
+      prior_experience:
+        - "Volunteer coordinator — Red Cross (WA)"
+        - "Retail manager"
+      personality_additions:
+        - "Warm and inclusive"
+        - "Excellent at making people feel valued"
+        - "Practical problem-solver"
+      knowledge_additions:
+        - "Volunteer management best practices"
+        - "Working With Children check coordination"
+        - "Community event planning"
+        - "Social enterprise operations"
+      opinions:
+        - "Volunteers are the heart of this organisation — treat them that way"
+        - "The training café gives young people real skills but it needs a proper manager"
+        - "We lose volunteers when they feel taken for granted"
+        - "Community events are our best recruitment tool — for volunteers and donors"
+      scenario_perspective: |
+        Trying to grow the volunteer base while maintaining quality.
+        The social enterprise expansion would need more volunteer
+        and paid staff coordination. Worried about volunteer burnout
+        mirroring staff burnout. Wants better systems for volunteer
+        management but is making do with spreadsheets.
+    refers_to:
+      CEO: "Maya Thompson"
+      programs: "Jess Warburton"
+      fundraising: "Amara Osei"
+
+documents:
+  - type: "support"
+    title: "Volunteer Handbook"
+    brief: "Complete guide for Horizon volunteers — expectations, training, safety, rostering, recognition, and how volunteer work contributes to community impact"
+  - type: "support"
+    title: "Program Impact Report Template"
+    brief: "Template and guide for how program staff report on outcomes — quantitative metrics, qualitative stories, challenges, and lessons learned"
+  - type: "support"
+    title: "Grant Writing Guide"
+    brief: "Internal guide for preparing grant applications — where to find opportunities, how to structure proposals, budget templates, and tips from successful applications"
+  - type: "policy"
+    title: "Safeguarding and Child Protection Policy"
+    brief: "Policy covering Working With Children obligations, safe practices with vulnerable people, incident reporting, and staff/volunteer screening"
+  - type: "policy"
+    title: "Donor Privacy and Ethical Fundraising Policy"
+    brief: "Policy covering donor data handling, opt-out rights, ethical fundraising standards, gift acceptance guidelines, and ACNC compliance"
+
+jobs:
+  - title: "Program Support Officer — Youth Employment"
+    department: "Programs"
+    employment_type: "Full-time"
+    reports_to: "Jess Warburton"
+    brief: "Support delivery of the youth employment pathways program — participant intake, workshop coordination, employer engagement. Suits a community development or social work graduate."
+
+  - title: "Fundraising & Events Assistant"
+    department: "Fundraising & Partnerships"
+    employment_type: "Part-time"
+    reports_to: "Amara Osei"
+    brief: "Support fundraising campaigns and events — donor communications, event logistics, CRM data entry. Suits a marketing, communications, or events student."
+
+  - title: "Digital Literacy Trainer"
+    department: "Programs"
+    employment_type: "Part-time"
+    reports_to: "Jess Warburton"
+    brief: "Deliver digital literacy workshops for seniors — tablets, smartphones, internet safety, government services online. Patient, clear communicator. Suits an IS or education student."
+
+  - title: "Finance & Grants Officer"
+    department: "Finance & Operations"
+    employment_type: "Full-time"
+    reports_to: "Craig Donovan"
+    brief: "Support grant financial management, prepare acquittal reports, assist with budgeting and ACNC reporting. Suits an accounting or finance graduate with interest in the NFP sector."

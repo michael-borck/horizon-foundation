@@ -1,0 +1,255 @@
+```yaml
+---
+title: Donor Privacy and Ethical Fundraising Policy
+slug: donor-privacy-ethical-fundraising-policy
+category: policy
+---
+
+# Donor Privacy and Ethical Fundraising Policy
+
+**Document Version:** 2.1  
+**Last Updated:** March 2024  
+**Next Review:** March 2025  
+**Policy Owner:** Amara Osei, Fundraising & Partnerships Manager  
+**Approved By:** Maya Thompson, CEO & Board of Directors  
+
+---
+
+## 1. Policy Statement
+
+Horizon Foundation is committed to maintaining the highest standards of ethical fundraising practice and protecting the privacy and rights of all donors. This policy ensures compliance with Australian Charities and Not-for-profits Commission (ACNC) governance standards, Privacy Act 1988, and the Fundraising Institute Australia (FIA) Code of Professional Practice.
+
+All fundraising activities must be conducted with integrity, transparency, and respect for donor autonomy. We recognise that donor trust is fundamental to our mission of supporting disadvantaged communities across metropolitan and regional Western Australia.
+
+## 2. Scope and Application
+
+This policy applies to:
+- All Horizon Foundation employees, volunteers, and contractors involved in fundraising activities
+- Board members engaged in donor cultivation or solicitation
+- Third-party fundraising consultants or agencies acting on our behalf
+- All forms of fundraising including individual giving, corporate partnerships, major gifts, and special events
+- Grant applications and reporting (supplementary to our Grant Management Policy)
+
+**Note:** This policy does not cover government grant compliance, which is addressed separately in our Grant Compliance Framework (currently under review as of February 2024).
+
+## 3. Donor Rights and Privacy Protection
+
+### 3.1 Fundamental Donor Rights
+
+All donors have the right to:
+- Know how their donation will be used and what percentage goes to program delivery
+- Request that their name not be published or shared
+- Receive prompt acknowledgment of their gift
+- Access information about Horizon Foundation's financial position and programs
+- Speak with senior staff about their donation or concerns
+- Opt out of future solicitations at any time
+- Have their personal information handled in accordance with privacy legislation
+
+### 3.2 Data Collection and Storage
+
+**Permitted Information Collection:**
+- Name, contact details, and communication preferences
+- Donation history and payment methods
+- Engagement history with Horizon Foundation programs
+- Publicly available information relevant to cultivation (for major gift prospects)
+- Information voluntarily shared during donor interactions
+
+**Prohibited Information Collection:**
+- Financial information beyond donation capacity indicators
+- Personal health or family details unless directly relevant to their giving motivation
+- Political affiliations or voting history
+- Information obtained through deceptive means
+
+**Data Security Requirements:**
+Craig Donovan (Finance & Operations Manager) maintains our donor database using CiviCRM with the following protections:
+- Password-protected access limited to Amara Osei, Maya Thompson, and Craig Donovan
+- Monthly backups stored on encrypted external drive in office safe
+- Annual security audit (next due September 2024)
+- Immediate notification to CEO if data breach suspected
+
+*Note: Our current system lacks two-factor authentication - this upgrade is scheduled for Q2 2024 pending budget approval.*
+
+### 3.3 Information Sharing and Third Parties
+
+Horizon Foundation will never sell, rent, or trade donor information. Limited sharing is permitted only for:
+- Processing donations through approved payment platforms (PayPal, CommBank)
+- Required reporting to ACNC or other regulatory bodies
+- Contracted services (e.g., direct mail processing) under signed confidentiality agreements
+
+**Current Third-Party Relationships:**
+- Print Plus Perth: Direct mail production (confidentiality agreement signed June 2023)
+- BetterWorld: Online donation platform (standard privacy terms)
+
+## 4. Ethical Fundraising Standards
+
+### 4.1 Solicitation Practices
+
+**Acceptable Practices:**
+- Clearly identifying Horizon Foundation and the purpose of contact
+- Providing specific information about how donations will be used
+- Respecting "do not contact" requests immediately and permanently
+- Offering multiple giving options without pressure
+- Following up appropriately based on donor preference and gift level
+
+**Unacceptable Practices:**
+- Misleading donors about program outcomes or financial need
+- Applying undue pressure or emotional manipulation
+- Contacting donors outside agreed timeframes or methods
+- Soliciting from individuals identified as vulnerable (elderly, isolated, financially distressed)
+- Making commitments beyond our organisational capacity
+
+### 4.2 Gift Acknowledgment and Recognition
+
+All donations will be acknowledged within 5 business days via the donor's preferred method. Recognition levels are:
+
+- **Up to $250:** Standard thank you letter/email
+- **$251-$1,000:** Personal thank you call from Amara Osei
+- **$1,001-$5,000:** Thank you call from Programs Director or CEO
+- **Above $5,000:** In-person meeting offered within 30 days
+
+**Anonymous Giving:** Donors may request anonymity in all recognition materials while still receiving private acknowledgment.
+
+### 4.3 Volunteer Fundraising Guidelines
+
+Pat Moriarty coordinates volunteer fundraising activities with the following requirements:
+- All volunteers must complete our 2-hour fundraising ethics training
+- Written guidelines provided for each campaign or event
+- Regular check-ins during active fundraising periods
+- Clear escalation path for complex donor questions
+
+**Current Challenge:** Several long-term volunteers are resistant to new social media fundraising approaches. Pat is developing targeted training for Q2 2024.
+
+## 5. Gift Acceptance Guidelines
+
+### 5.1 Acceptable Gifts
+
+Horizon Foundation accepts:
+- Cash donations in Australian dollars
+- Bank transfers and credit card payments
+- Cheques made payable to "Horizon Foundation"
+- In-kind donations of goods or services relevant to our programs (valued independently)
+- Publicly traded securities (Australian exchanges only)
+- Bequests outlined in properly executed wills
+
+### 5.2 Restricted or Conditional Gifts
+
+Donors may designate gifts for specific programs or purposes that align with our mission. Restrictions must be:
+- Legally permissible and ethically acceptable
+- Operationally feasible within our capacity
+- Documented in writing and agreed to by CEO
+
+**Current Restricted Funds:**
+- Emergency Relief Fund: $18,400 (as of February 2024)
+- Regional Digital Literacy Program: $7,200
+- Youth Employment Initiative: $12,800
+
+### 5.3 Gifts That May Be Declined
+
+Horizon Foundation reserves the right to decline gifts that:
+- Come with conditions contrary to our values or mission
+- Involve illegal activity or questionable sources
+- Require resources we cannot reasonably provide
+- Pose reputational risk to the organisation
+- Exceed our capacity to manage responsibly
+
+**Decision Process:** Gifts above $10,000 with unusual conditions require board consultation. CEO has authority to decline gifts up to $5,000 without board approval.
+
+## 6. ACNC Compliance Requirements
+
+### 6.1 Governance Standards Alignment
+
+This policy ensures compliance with:
+- **Governance Standard 1:** Purposes and not-for-profit nature
+- **Governance Standard 3:** Responsible persons
+- **Governance Standard 5:** Duties of responsible persons
+
+### 6.2 Reporting and Documentation
+
+Craig Donovan maintains:
+- Annual register of donations above $1,000
+- Quarterly reporting to board on fundraising performance and compliance
+- Documentation of all gift acceptance decisions and rationale
+- Records of donor communication preferences and opt-out requests
+
+### 6.3 Public Accountability
+
+We commit to:
+- Publishing annual impact report including financial summary
+- Maintaining current DGR status and ACNC registration
+- Responding to public inquiries about our fundraising practices within 10 business days
+- Participating in sector best practice initiatives where appropriate
+
+## 7. Implementation and Monitoring
+
+### 7.1 Staff Responsibilities
+
+**Amara Osei (Fundraising & Partnerships Manager):**
+- Daily implementation of ethical fundraising practices
+- Monthly review of donor database for compliance issues
+- Quarterly training updates for staff and volunteers
+- Annual policy review and recommendations for updates
+
+**Maya Thompson (CEO):**
+- Strategic oversight of fundraising ethics
+- Final authority on complex gift acceptance decisions
+- Board reporting on policy compliance
+- External stakeholder communication on fundraising matters
+
+### 7.2 Training and Professional Development
+
+All staff involved in fundraising must complete:
+- Initial ethics training within 30 days of role commencement
+- Annual refresher training each March
+- FIA Code of Professional Practice review session
+- Specific training for new fundraising approaches or technologies
+
+*Budget Note: $2,500 allocated for external training in 2024 budget, though this may need adjustment if we expand individual giving as planned.*
+
+### 7.3 Complaints and Violations
+
+Donors or community members may raise concerns through:
+- Direct contact with Amara Osei or Maya Thompson
+- Anonymous feedback form on website
+- Written complaint to board chair
+- External complaint to ACNC if internal processes unsatisfactory
+
+**Response Timeline:** All complaints acknowledged within 2 business days, investigation completed within 15 business days, written response provided to complainant.
+
+## 8. Related Policies and Documents
+
+- Privacy Policy (updated annually)
+- Volunteer Management Policy
+- Financial Management Policy
+- Board Governance Charter
+- Grant Compliance Framework (under review)
+- Corporate Partnership Guidelines (in development)
+
+## 9. Review and Amendment
+
+This policy is reviewed annually in March, with additional reviews triggered by:
+- Changes in relevant legislation
+- ACNC guidance updates
+- Significant fundraising program changes
+- Donor complaints or compliance issues
+- Board direction
+
+**Upcoming Considerations for 2025 Review:**
+- Integration of social enterprise revenue guidelines
+- Enhanced online fundraising privacy protections
+- Regional expansion fundraising protocols
+- Major gift program formalization
+
+---
+
+**Document Control:**
+- Original Policy: February 2019
+- Version 2.0: March 2023 (added social media guidelines)
+- Version 2.1: March 2024 (enhanced privacy protections, ACNC updates)
+- Next Scheduled Review: March 2025
+
+**Distribution:**
+- All staff (mandatory reading)
+- Board of Directors
+- Active volunteers involved in fundraising
+- Third-party fundraising contractors
+```

@@ -1,0 +1,18 @@
+branding:
+  accent: '#F5DEB3'
+  primary: '#8B4513'
+  secondary: '#D2691E'
+careers:
+  label: Careers
+  show_apply_form: true
+  submit_url: ''
+chatbot:
+  booking_api: ''
+  booking_enabled: true
+  mode: llm
+  platform: anythingllm
+company:
+  name: Horizon Foundation
+  slug: horizon-foundation
+  tagline: Strengthening Communities Across Western Australia
+theme: warm-hospitality

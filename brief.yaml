@@ -8,6 +8,13 @@ company:
   industry: "managed_it"
   location: "Perth, Western Australia"
 
+  # Community org — supports students and volunteers after hours
+  business_hours:
+    start: 10       # 10am start
+    end: 19         # 7pm finish (after-work accessible)
+    days: [1, 2, 3, 4, 5]
+    description: "Community-friendly hours including early evening"
+
   profile:
     founded: 2012
     employees: 28

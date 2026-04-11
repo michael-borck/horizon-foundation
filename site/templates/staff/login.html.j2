@@ -1,0 +1,20 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Staff login — Horizon Foundation{% endblock %}
+
+{% block content %}
+<section class="section-pad">
+    <div class="wrap-narrow">
+        <p class="eyebrow">Staff portal</p>
+        <h1 style="margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">Welcome back.</h1>
+        <p class="lead" style="margin-bottom: var(--hf-px-6);">Horizon staff and volunteers only. Enter your work email and we'll send you a 6-digit access code.</p>
+
+        <form id="login-form" style="max-width: 480px; display: grid; gap: var(--hf-px-3); border: 1px solid var(--hf-line); padding: var(--hf-px-5); background: var(--hf-bg); border-radius: var(--hf-r-md);">
+            <label class="label" for="email">Work email</label>
+            <input type="email" id="email" name="email" required placeholder="firstname.lastname@horizonfoundation.org.au" style="padding: var(--hf-px-3); background: var(--hf-bg-2); border: 1px solid var(--hf-line-2); color: var(--hf-text); font-family: var(--hf-font-body); border-radius: var(--hf-r-sm);">
+            <button type="submit" class="btn btn-primary btn-arrow">Send code</button>
+            <p class="label" style="margin-top: var(--hf-px-2);">Authentication coming soon — placeholder for the WorkReady simulation.</p>
+        </form>
+    </div>
+</section>
+{% endblock %}

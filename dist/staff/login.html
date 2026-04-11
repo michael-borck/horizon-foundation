@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact — Horizon Foundation</title>
+    <title>Staff login — Horizon Foundation</title>
     <meta name="description" content="Horizon Foundation is a Western Australian community foundation supporting youth employment, digital literacy for seniors, community health, and emergency relief.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="stylesheet" href="/styles/main.css">
@@ -23,7 +23,7 @@
                 <a href="/about.html" class="">About</a>
                 <a href="/programs.html" class="">Programs</a>
                 <a href="/careers.html" class="">Careers</a>
-                <a href="/contact.html" class="active">Contact</a>
+                <a href="/contact.html" class="">Contact</a>
                 <a href="/contact.html" class="nav-cta">Donate</a>
             </nav>
         </div>
@@ -31,46 +31,17 @@
 
     <main>
 <section class="section-pad">
-    <div class="wrap">
-        <p class="eyebrow">Say hello</p>
-        <h1 style="max-width: 16ch; margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">Drop in. Send a note. Or come along to an event.</h1>
-        <p class="lead" style="max-width: 60ch; font-size: 1.35rem;">Our office hours run from 10am to 7pm — early evenings so working people, students, and volunteers can actually reach us.</p>
-    </div>
-</section>
-
-<section class="section-pad" style="background: var(--hf-bg-2); border-top: 1px solid var(--hf-line); border-bottom: 1px solid var(--hf-line);">
-    <div class="wrap">
-        <div class="programs-grid">
-            <article class="program">
-                <div class="program-icon">P</div>
-                <div class="program-num">VISIT</div>
-                <h3>Perth office</h3>
-                <p style="margin-bottom: var(--hf-px-2);">12 Lake Street<br>Northbridge WA 6003</p>
-                <p style="font-family: var(--hf-font-display); font-style: italic; color: var(--hf-clay);">+61 8 9000 0000</p>
-            </article>
-            <article class="program">
-                <div class="program-icon">H</div>
-                <div class="program-num">HOURS</div>
-                <h3>Open hours</h3>
-                <p style="margin-bottom: var(--hf-px-2);">Monday to Friday<br>10:00 — 19:00 AWST</p>
-                <p style="font-family: var(--hf-font-display); font-style: italic; color: var(--hf-clay);">After-hours volunteer support also available</p>
-            </article>
-            <article class="program">
-                <div class="program-icon">@</div>
-                <div class="program-num">EMAIL</div>
-                <h3>Get in touch</h3>
-                <p style="margin-bottom: var(--hf-px-2);">hello@horizonfoundation.org.au</p>
-                <p style="font-family: var(--hf-font-display); font-style: italic; color: var(--hf-clay);">Donors: give@horizonfoundation.org.au</p>
-            </article>
-        </div>
-    </div>
-</section>
-
-<section class="section-pad">
     <div class="wrap-narrow">
-        <p class="eyebrow">Donate or partner</p>
-        <h2 style="margin-bottom: var(--hf-px-4); font-style: italic; font-weight: 400;">Three ways in.</h2>
-        <p style="color: var(--hf-text-muted); font-size: 1.15rem; line-height: 1.75;">As a registered DGR charity, donations to Horizon are tax deductible. You can give once, set up a monthly contribution, or talk to us about a corporate partnership. Whatever fits — every contribution funds programs that pay forward in real ways. Send a note to <span class="serif italic" style="color: var(--hf-clay);">give@horizonfoundation.org.au</span> and Amara will be in touch.</p>
+        <p class="eyebrow">Staff portal</p>
+        <h1 style="margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">Welcome back.</h1>
+        <p class="lead" style="margin-bottom: var(--hf-px-6);">Horizon staff and volunteers only. Enter your work email and we'll send you a 6-digit access code.</p>
+
+        <form id="login-form" style="max-width: 480px; display: grid; gap: var(--hf-px-3); border: 1px solid var(--hf-line); padding: var(--hf-px-5); background: var(--hf-bg); border-radius: var(--hf-r-md);">
+            <label class="label" for="email">Work email</label>
+            <input type="email" id="email" name="email" required placeholder="firstname.lastname@horizonfoundation.org.au" style="padding: var(--hf-px-3); background: var(--hf-bg-2); border: 1px solid var(--hf-line-2); color: var(--hf-text); font-family: var(--hf-font-body); border-radius: var(--hf-r-sm);">
+            <button type="submit" class="btn btn-primary btn-arrow">Send code</button>
+            <p class="label" style="margin-top: var(--hf-px-2);">Authentication coming soon — placeholder for the WorkReady simulation.</p>
+        </form>
     </div>
 </section>
     </main>

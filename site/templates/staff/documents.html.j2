@@ -1,0 +1,41 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Staff documents — Horizon Foundation{% endblock %}
+
+{% block content %}
+<section class="section-pad">
+    <div class="wrap">
+        <p class="eyebrow">Staff portal / Documents</p>
+        <h1 style="margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">Documents and policies.</h1>
+        <p class="lead" style="font-size: 1.2rem; margin-bottom: var(--hf-px-6);">Current versions only. Older versions are archived in the document management system.</p>
+
+        {% if docs.support %}
+        <h2 style="margin-top: var(--hf-px-6); margin-bottom: var(--hf-px-4); font-size: 2rem; font-style: italic; font-weight: 400;">Guides for the work</h2>
+        <div class="programs-grid">
+            {% for doc in docs.support %}
+            <article class="program">
+                <div class="program-icon">{{ doc.title[0] }}</div>
+                <div class="program-num">SUPPORT {{ "%02d"|format(loop.index) }}</div>
+                <h3 style="font-size: 1.25rem;">{{ doc.title }}</h3>
+                <p style="font-size: 0.92rem;">{{ (doc.body or doc.brief or "")[:180] }}{% if (doc.body or doc.brief or "")|length > 180 %}…{% endif %}</p>
+            </article>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if docs.policy %}
+        <h2 style="margin-top: var(--hf-px-8); margin-bottom: var(--hf-px-4); font-size: 2rem; font-style: italic; font-weight: 400;">Policies</h2>
+        <div class="programs-grid">
+            {% for doc in docs.policy %}
+            <article class="program">
+                <div class="program-icon">{{ doc.title[0] }}</div>
+                <div class="program-num">POLICY {{ "%02d"|format(loop.index) }}</div>
+                <h3 style="font-size: 1.25rem;">{{ doc.title }}</h3>
+                <p style="font-size: 0.92rem;">{{ (doc.body or doc.brief or "")[:180] }}{% if (doc.body or doc.brief or "")|length > 180 %}…{% endif %}</p>
+            </article>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

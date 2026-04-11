@@ -1,0 +1,28 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Staff directory — Horizon Foundation{% endblock %}
+
+{% block content %}
+<section class="section-pad">
+    <div class="wrap">
+        <p class="eyebrow">Staff portal / Directory</p>
+        <h1 style="margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">Who's in the room.</h1>
+        <p class="lead" style="font-size: 1.2rem; margin-bottom: var(--hf-px-6);">Leadership, program managers, and operational leads. Click any name to see their profile and start a chat.</p>
+
+        <div class="programs-grid">
+            {% for emp in employees %}
+            <article class="program">
+                <div class="program-icon">{{ emp.name[0] }}</div>
+                <div class="program-num">STAFF {{ "%03d"|format(loop.index) }} / {{ (emp.tier or "STAFF")|upper }}</div>
+                <h3 style="font-size: 1.3rem;">{{ emp.name }}</h3>
+                <p style="color: var(--hf-clay); font-family: var(--hf-font-display); font-style: italic; font-size: 0.95rem; margin-bottom: var(--hf-px-3);">{{ emp.role }}</p>
+                <p style="font-size: 0.92rem;">{{ (emp.background or "")[:160] }}{% if (emp.background or "")|length > 160 %}…{% endif %}</p>
+                <div class="program-meta">
+                    <span class="label">Chat assistant — coming soon</span>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

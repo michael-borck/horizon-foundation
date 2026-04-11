@@ -1,35 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizon Foundation — Strengthening Communities Across Western Australia</title>
-    <meta name="description" content="Horizon Foundation is a Western Australian community foundation supporting youth employment, digital literacy for seniors, community health, and emergency relief.">
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-    <link rel="stylesheet" href="/styles/main.css">
-</head>
-<body>
-    <header class="header">
-        <div class="header-inner">
-            <a href="/" class="brand">
-                <div class="brand-logo">H</div>
-                <div class="brand-name">
-                    <strong>Horizon Foundation</strong>
-                    <span>Community / DGR / Perth WA</span>
-                </div>
-            </a>
-            <nav class="nav">
-                <a href="/" class="active">Home</a>
-                <a href="/about.html" class="">About</a>
-                <a href="/programs.html" class="">Programs</a>
-                <a href="/careers.html" class="">Careers</a>
-                <a href="/contact.html" class="">Contact</a>
-                <a href="/contact.html" class="nav-cta">Donate</a>
-            </nav>
-        </div>
-    </header>
+{% extends "base.html.j2" %}
 
-    <main>
+{% block title %}Horizon Foundation — Strengthening Communities Across Western Australia{% endblock %}
+
+{% block content %}
 <section class="hero">
     <div class="hero-inner">
         <div class="hero-content">
@@ -37,7 +10,7 @@
             <h1>
                 We pull up <span class="underline">a chair</span> for <span class="accent">every story</span> in the room.
             </h1>
-            <p class="hero-tagline">Strengthening Communities Across Western Australia Twelve programs, four thousand people each year, eighty-five volunteers, and one long table that grows a little wider every season.</p>
+            <p class="hero-tagline">{{ company.tagline or "Strengthening communities across Western Australia." }} Twelve programs, four thousand people each year, eighty-five volunteers, and one long table that grows a little wider every season.</p>
             <div class="hero-cta">
                 <a href="/programs.html" class="btn btn-primary btn-arrow">Our programs</a>
                 <a href="/contact.html" class="btn btn-clay btn-arrow">Get involved</a>
@@ -133,29 +106,19 @@
         <div class="story-block">
             <div class="story-block-inner">
                 <p class="story-label">Where we are right now</p>
-                <h3>Beyond Grants</h3>
-                <p>Horizon has grown steadily on government grants and corporate
-sponsorships, but funding is becoming less certain. Two major
-grants are up for renewal with no guarantee of continuation.
-The board is pushing to diversify revenue through social
-enterprise expansion and individual giving, but the team is
-built for program delivery, not commercial operations or
-fundraising. Meanwhile, demand for services is increasing
-post-pandemic, and a successful regional expansion pilot is
-creating pressure to scale programs the organisation may not
-be able to sustain.</p>
+                <h3>{{ scenario.name or "Beyond Grants" }}</h3>
+                <p>{{ (scenario.description or "")|trim }}</p>
 
                 <p class="pull-quote">“Every program decision should start with one question — what does the community actually need?”</p>
                 <p style="margin-top: -8px;"><span class="label">— Maya Thompson, Chief Executive Officer</span></p>
 
+                {% if scenario.key_tensions %}
                 <ul class="tensions-list">
-                    <li>Grant dependency vs. revenue diversification</li>
-                    <li>Program expansion vs. organisational capacity</li>
-                    <li>Mission focus vs. commercial activities</li>
-                    <li>Perth metro vs. regional delivery challenges</li>
-                    <li>Volunteer workforce vs. need for professional staff</li>
-                    <li>Impact measurement vs. story-telling for donors</li>
+                    {% for tension in scenario.key_tensions[:6] %}
+                    <li>{{ tension }}</li>
+                    {% endfor %}
                 </ul>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -172,50 +135,4 @@ be able to sustain.</p>
         </div>
     </div>
 </section>
-    </main>
-
-    <footer class="footer">
-        <div class="wrap">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <h3>Horizon Foundation</h3>
-                    <p>A Western Australian community foundation working alongside the people and places that shape our state. Twelve programs, eighty-five volunteers, and a long table that grows every year.</p>
-                    <div style="margin-top: var(--hf-px-3);">
-                        <span class="dgr-badge">DGR endorsed</span>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Foundation</h4>
-                    <ul>
-                        <li><a href="/about.html">Who we are</a></li>
-                        <li><a href="/programs.html">Programs</a></li>
-                        <li><a href="/careers.html">Careers</a></li>
-                        <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>For Staff</h4>
-                    <ul>
-                        <li><a href="/staff/">Staff portal</a></li>
-                        <li><a href="/staff/directory.html">Directory</a></li>
-                        <li><a href="/staff/documents.html">Documents</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Support us</h4>
-                    <ul>
-                        <li><a href="/contact.html">Give once</a></li>
-                        <li><a href="/contact.html">Give monthly</a></li>
-                        <li><a href="/contact.html">Volunteer</a></li>
-                        <li><a href="/contact.html">Partner with us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Horizon Foundation Ltd / ABN 00 000 000 000 / ACNC registered charity</p>
-                <p class="footer-disclaimer">A fictional organisation, made for a Curtin University internship simulation.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+{% endblock %}

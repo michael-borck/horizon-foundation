@@ -1,0 +1,54 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ job.title }} — Horizon Foundation Careers{% endblock %}
+
+{% block content %}
+<section class="section-pad">
+    <div class="wrap">
+        <p class="eyebrow"><a href="/careers.html" style="color: var(--hf-clay);">← All roles</a> / {{ job.department or "Open role" }}</p>
+        <h1 style="max-width: 18ch; margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">{{ job.title }}</h1>
+        <p class="lead" style="max-width: 60ch; font-size: 1.25rem;">{{ job.brief or job.summary or "" }}</p>
+
+        <div class="programs-grid" style="margin-top: var(--hf-px-6);">
+            <article class="program">
+                <div class="program-num">DEPARTMENT</div>
+                <h3 style="font-size: 1.35rem;">{{ job.department or "—" }}</h3>
+            </article>
+            <article class="program">
+                <div class="program-num">EMPLOYMENT TYPE</div>
+                <h3 style="font-size: 1.35rem;">{{ job.employment_type or "Full-time" }}</h3>
+            </article>
+            <article class="program">
+                <div class="program-num">REPORTS TO</div>
+                <h3 style="font-size: 1.35rem;">{{ job.reports_to or "—" }}</h3>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section-pad" style="background: var(--hf-bg-2); border-top: 1px solid var(--hf-line); border-bottom: 1px solid var(--hf-line);">
+    <div class="wrap-narrow">
+        {% if job.description %}
+        <article class="prose">
+            {{ job.description | markdown }}
+        </article>
+        {% endif %}
+    </div>
+</section>
+
+<section class="cta-banner">
+    <div class="wrap">
+        <div class="cta-banner-inner">
+            <div>
+                <h2>Pull up a chair.</h2>
+                <p>If this role sounds like yours, send us your CV and a short note about why it matters to you. We read every application ourselves.</p>
+            </div>
+            {% if company_url %}
+            <a href="{{ company_url }}" class="btn btn-primary btn-arrow cta-banner-btn">Apply via WorkReady</a>
+            {% else %}
+            <a href="/contact.html" class="btn btn-primary btn-arrow cta-banner-btn">Get in touch</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}

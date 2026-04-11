@@ -1,0 +1,71 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Careers — Horizon Foundation{% endblock %}
+
+{% block content %}
+<section class="section-pad">
+    <div class="wrap">
+        <p class="eyebrow">Careers / FY26 intake</p>
+        <h1 style="max-width: 18ch; margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">Work that pays you back in stories.</h1>
+        <p class="lead" style="max-width: 60ch; font-size: 1.35rem;">Twenty-eight people. Eighty-five volunteers. Programs across metro and regional Western Australia. Our careers are smaller than at big NFPs — and they touch more of the work.</p>
+    </div>
+</section>
+
+<section class="section-pad-sm" style="background: var(--hf-bg-2); border-top: 1px solid var(--hf-line); border-bottom: 1px solid var(--hf-line);">
+    <div class="wrap">
+        <div class="section-header">
+            <div>
+                <p class="eyebrow">Open roles</p>
+                <h2>{{ jobs|length }} positions open.</h2>
+            </div>
+            <p class="lead">Most roles are based at our Perth office with travel to community delivery sites. Hours are family-friendly and we operate on community-friendly business hours, including early evenings.</p>
+        </div>
+
+        <div class="programs-grid">
+            {% for job in jobs %}
+            <article class="program" style="display: flex; flex-direction: column;">
+                <div class="program-icon">{{ job.title[0] }}</div>
+                <div class="program-num">ROLE {{ "%02d"|format(loop.index) }} / {{ (job.employment_type or "Full-time")|upper }}</div>
+                <h3 style="font-size: 1.3rem;">{{ job.title }}</h3>
+                <p style="color: var(--hf-clay); font-family: var(--hf-font-display); font-style: italic; font-size: 0.95rem; margin-bottom: var(--hf-px-3);">{{ job.department or "" }}</p>
+                <p style="flex: 1;">{{ (job.brief or job.summary or "")[:200] }}{% if (job.brief or job.summary or "")|length > 200 %}…{% endif %}</p>
+                <a href="/careers/{{ job.slug }}.html" class="btn btn-primary btn-arrow" style="align-self: flex-start; margin-top: var(--hf-px-4);">Read role</a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="wrap">
+        <div class="section-header">
+            <div>
+                <p class="eyebrow">Hiring process</p>
+                <h2>Three conversations. No tests.</h2>
+            </div>
+            <p class="lead">We hire on alignment with our values and capacity to do the work — not on how well you perform under exam conditions.</p>
+        </div>
+
+        <div class="programs-grid">
+            <article class="program">
+                <div class="program-icon">1</div>
+                <div class="program-num">STEP 01</div>
+                <h3>Apply</h3>
+                <p>Send us a CV and a short note about why this role matters to you. Jordan reads everything and replies within five business days.</p>
+            </article>
+            <article class="program">
+                <div class="program-icon">2</div>
+                <div class="program-num">STEP 02</div>
+                <h3>Conversation</h3>
+                <p>One conversation with the hiring manager and one of our team — about 45 minutes. We talk about the work, your values, and how you'd fit at the table.</p>
+            </article>
+            <article class="program">
+                <div class="program-icon">3</div>
+                <div class="program-num">STEP 03</div>
+                <h3>Reference & offer</h3>
+                <p>We check two references and come back to you within a week. Salary, conditions, and start date all on the table at offer stage.</p>
+            </article>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Staff portal — Horizon Foundation{% endblock %}
+
+{% block content %}
+<section class="section-pad">
+    <div class="wrap">
+        <p class="eyebrow">Staff portal / Internal</p>
+        <h1 style="margin-bottom: var(--hf-px-5); font-style: italic; font-weight: 300;">The back room.</h1>
+        <p class="lead" style="font-size: 1.2rem;">Quick links to the things you need every day.</p>
+
+        <div class="programs-grid" style="margin-top: var(--hf-px-6);">
+            <a href="/staff/directory.html" class="program" style="text-decoration: none;">
+                <div class="program-icon">P</div>
+                <div class="program-num">PORTAL 01</div>
+                <h3>People directory</h3>
+                <p>Find a colleague, reach a program manager, or chat with our embedded assistants.</p>
+            </a>
+            <a href="/staff/documents.html" class="program" style="text-decoration: none;">
+                <div class="program-icon">D</div>
+                <div class="program-num">PORTAL 02</div>
+                <h3>Documents</h3>
+                <p>Volunteer handbook, safeguarding policy, grant writing guide, impact report templates.</p>
+            </a>
+            <a href="#" class="program" style="text-decoration: none;">
+                <div class="program-icon">V</div>
+                <div class="program-num">PORTAL 03</div>
+                <h3>Volunteer roster</h3>
+                <p>Current week's roster, sign-ups, and recognition queue. Coming soon.</p>
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

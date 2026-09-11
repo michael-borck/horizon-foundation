@@ -26,7 +26,7 @@
         fd.append('posting_id', form.querySelector('[name="posting_id"]').value);
         fd.append('job_title', form.querySelector('[name="job_title"]').value);
         fd.append('applicant_name', form.querySelector('[name="applicant_name"]').value);
-        fd.append('applicant_email', form.querySelector('[name="applicant_email"]').value);
+        fd.append('applicant_code', form.querySelector('[name="applicant_code"]').value);
         fd.append('cover_letter', form.querySelector('[name="cover_letter"]').value || '');
         fd.append('source', 'company_site');
 

@@ -99,6 +99,8 @@ def load_employees() -> list[dict]:
         return []
     employees = []
     for md_file in sorted(emp_dir.glob("*.md")):
+        if md_file.name.startswith("._"):
+            continue  # macOS exFAT artifact
         if md_file.stem.endswith("-prompt"):
             continue  # skip the prompt files
         meta, body = parse_frontmatter(md_file.read_text(encoding="utf-8"))
@@ -205,12 +207,12 @@ def build():
 
     # Clean dist/ but keep .git, CNAME, .nojekyll if present
     for item in DIST_DIR.iterdir():
-        if item.name in (".git", "CNAME", ".nojekyll"):
-            continue
+        if item.name in (".git", "CNAME", ".nojekyll") or item.name.startswith("._"):
+            continue  # ._ files are macOS exFAT artifacts, not build output
         if item.is_dir():
             shutil.rmtree(item)
         else:
-            item.unlink()
+            item.unlink(missing_ok=True)
 
     # Load data
     brief = load_brief()

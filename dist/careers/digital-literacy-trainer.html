@@ -7,7 +7,10 @@
     <meta name="description" content="Horizon Foundation is a Western Australian community foundation supporting youth employment, digital literacy for seniors, community health, and emergency relief.">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="stylesheet" href="/styles/main.css">
-<script src="/scripts/apply.js" defer></script>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://workready.eduserver.au; style-src 'self' 'unsafe-inline'; connect-src https://workready-api.eduserver.au; img-src 'self' data:; base-uri 'self'; form-action 'none'">
+<script src="/scripts/apply.js?v=0.3.0" defer></script>
+<script src="https://workready.eduserver.au/session.js?v=0.3.0"></script>
 </head>
 <body>
     <header class="header">
@@ -116,7 +119,7 @@ Subject line: Digital Literacy Trainer Application - [Your Name]</p>
     <div class="wrap">
         <p class="eyebrow">Apply for this role</p>
         <h2 style="font-style: italic; font-weight: 300;">Pull up a chair.</h2>
-        <p class="lead">Send us your CV and a note about why this matters to you. We read every application ourselves.</p>
+        <p class="lead">Apply with your fictional profile and synthetic resume. You will receive automated educational feedback.</p>
 
         <form id="apply-form" class="apply-form" data-api-base="https://workready-api.eduserver.au">
             <input type="hidden" name="posting_id" value="">
@@ -135,7 +138,7 @@ Subject line: Digital Literacy Trainer Application - [Your Name]</p>
             </div>
             <div>
                 <label for="resume">Resume (PDF) <span class="apply-required">*</span></label>
-                <input type="file" name="resume" id="resume" accept=".pdf" required>
+                <input type="file" name="resume" accept="application/pdf,.pdf" title="PDF resume" id="resume" accept=".pdf" required>
             </div>
             <div>
                 <button type="submit" class="btn btn-primary btn-arrow">Submit application</button>
@@ -189,11 +192,5 @@ Subject line: Digital Literacy Trainer Application - [Your Name]</p>
             </div>
         </div>
     </footer>
-<!-- AnythingLLM hiring desk chatbot -->
-<script
-  data-embed-id="87ee0e28-dec2-4cfc-bfe3-30da3bf38674"
-  data-base-api-url="https://chat.eduserver.au/api/embed"
-  src="https://chat.eduserver.au/embed/anythingllm-chat-widget.min.js">
-</script>
 </body>
 </html>

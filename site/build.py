@@ -122,6 +122,8 @@ def load_documents() -> dict:
         if not cat_dir.is_dir():
             continue
         for md_file in sorted(cat_dir.glob("*.md")):
+            if md_file.name.startswith('._'):
+                continue
             meta, body = parse_frontmatter(md_file.read_text(encoding="utf-8"))
             meta["body"] = body
             meta["slug"] = md_file.stem

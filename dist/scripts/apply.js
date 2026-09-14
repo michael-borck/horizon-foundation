@@ -19,10 +19,14 @@
     var submitBtn = form.querySelector('button[type="submit"]');
     var apiBase = form.getAttribute('data-api-base') || 'https://workready-api.eduserver.au';
 
-    form.addEventListener('submit', function (e) {
+    form.addEventListener('submit', async function (e) {
         e.preventDefault();
+        try { await window.WRSession.login(form.querySelector('[name="applicant_code"]').value); }
+        catch (error) { showResult(error.message, 'error'); return; }
 
         var fd = new FormData();
+        fd.append('company_slug', 'horizon-foundation');
+        fd.append('job_slug', window.location.pathname.split('/').pop().replace('.html', ''));
         fd.append('posting_id', form.querySelector('[name="posting_id"]').value);
         fd.append('job_title', form.querySelector('[name="job_title"]').value);
         fd.append('applicant_name', form.querySelector('[name="applicant_name"]').value);
@@ -42,7 +46,7 @@
         submitBtn.textContent = 'Submitting…';
         hideResult();
 
-        fetch(apiBase + '/api/v1/resume', { method: 'POST', body: fd })
+        window.WRSession.fetch(apiBase + '/api/v1/resume', { method: 'POST', body: fd })
             .then(function (r) {
                 if (r.ok) return r.json();
                 throw new Error('Submission failed — please try again.');
@@ -58,6 +62,8 @@
                 showResult(err.message, 'error');
             })
             .finally(function () {
+                window.WRSession.logout();
+                form.querySelector('[name="applicant_code"]').value = '';
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Submit application';
             });

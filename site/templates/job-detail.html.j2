@@ -40,7 +40,7 @@
     <div class="wrap">
         <p class="eyebrow">Apply for this role</p>
         <h2 style="font-style: italic; font-weight: 300;">Pull up a chair.</h2>
-        <p class="lead">Send us your CV and a note about why this matters to you. We read every application ourselves.</p>
+        <p class="lead">Apply with your fictional profile and synthetic resume. You will receive automated educational feedback.</p>
 
         <form id="apply-form" class="apply-form" data-api-base="https://workready-api.eduserver.au">
             <input type="hidden" name="posting_id" value="">
@@ -71,5 +71,8 @@
 {% endblock %}
 
 {% block head_extra %}
-<script src="/scripts/apply.js" defer></script>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://workready.eduserver.au; style-src 'self' 'unsafe-inline'; connect-src https://workready-api.eduserver.au; img-src 'self' data:; base-uri 'self'; form-action 'none'">
+<script src="/scripts/apply.js?v=0.3.0" defer></script>
+<script src="https://workready.eduserver.au/session.js?v=0.3.0"></script>
 {% endblock %}
